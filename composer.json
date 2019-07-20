@@ -1,0 +1,20 @@
+{
+    "name": "bfatoms/typecon",
+    "description": "a laravel package for converting a type to another, json to csv, csv to json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Foronda",
+            "email": "bfatoms69@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": { "BfAtoms\\Typecon\\": "src/" }
+    }
+}
